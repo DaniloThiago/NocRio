@@ -14,7 +14,7 @@ h3 span{color:#666;}
 h3{color:#1e6f87;}
 footer ul{list-style:none; padding:0; font-size:15px;}
 footer input{margin-bottom:8px;} 
-body {text-align: center; font-family: 'Open Sans', sans-serif; background: #e4e4e4; color: #888; font-size: 13px;}
+body {text-align: center; font-family: 'Open Sans', sans-serif; background: #496549; color: #191919; font-size: 13px;}
 .green { color: #0D572D; }
 
 a {
@@ -114,10 +114,10 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-    /*width: 230px;*/
-	width: 394px;
+    width: 230px;
 	height: 106px;
 	background: url(../img/logo.png) left center no-repeat;
+    background-size: 100%;
 	text-indent: -99999px;
 }
 
@@ -137,8 +137,9 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 .presentation-container h1 {
     font-family: 'Lobster', cursive;
     font-size: 30px;
-    color: #5d5d5d;
+    color: #FFFFFF;
     font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.7);
 }
 
 .presentation-container p {
@@ -203,6 +204,21 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
     line-height: 24px;
 }
 
+/***** Body Container *****/
+
+.body-container {
+    text-align: left;
+}
+
+.body-container h4 {
+    margin-top: 20px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
 
 /***** Latest work *****/
 
@@ -225,7 +241,6 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 }
 
 .work {
-    margin-top: 40px;
     padding-bottom: 20px;
     background: #f8f8f8;
     border-bottom: 2px solid #094021;
@@ -309,7 +324,7 @@ footer {
 }
 
 .footer-border {
-    margin-top: 30px;
+    margin-top: 20px;
     border-top: 1px dashed #ddd;
 }
 
