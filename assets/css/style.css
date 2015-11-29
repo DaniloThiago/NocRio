@@ -14,8 +14,8 @@ h3 span{color:#666;}
 h3{color:#1e6f87;}
 footer ul{list-style:none; padding:0; font-size:15px;}
 footer input{margin-bottom:8px;} 
-body {text-align: center; font-family: 'Open Sans', sans-serif; background: #496549; color: #191919; font-size: 13px;}
-.green { color: #0D572D; }
+body {text-align: center; font-family: 'Open Sans', sans-serif; background: rgba(73,101,73,0.9); color: #191919; font-size: 13px;}
+.green { color: #0D572D!important; }
 
 a {
     color: #094021;
@@ -131,7 +131,7 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 /***** Presentation *****/
 
 .presentation-container {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .presentation-container h1 {
@@ -139,12 +139,16 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
     font-size: 30px;
     color: #FFFFFF;
     font-weight: bold;
-    text-shadow: 3px 3px 3px rgba(0,0,0,.7);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.4)
 }
 
 .presentation-container p {
     font-size: 18px;
     font-style: italic;
+}
+
+.presentation-container .panel-body{
+    text-align: left;
 }
 
 
