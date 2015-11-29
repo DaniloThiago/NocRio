@@ -100,7 +100,7 @@ ul.navbar-nav {
 	text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-top: 5px solid #fff; color: #5d5d5d; }
+ul.navbar-nav li a { padding: 23px 15px; background: #fff; border-top: 5px solid #fff; color: #5d5d5d; }
 ul.navbar-nav li.active a { background: #f8f8f8; border-color: #094021; color: #5d5d5d; }
 
 ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: #0D572D; border-color: #094021; color: #fff; outline: 0; }
@@ -218,6 +218,17 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
     color: #fff;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+/***** Test Container *****/
+
+.body-container.test input {
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.body-container.test button {
+    margin-top: 10px;
 }
 
 /***** Latest work *****/
