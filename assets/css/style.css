@@ -232,15 +232,43 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 .body-container .center-block img {margin: 3px 1px; display: inline-block;}
 
 /***** Test Container *****/
+.body-container.test input[type="text"], .body-container.test input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
 
-.body-container.test input {
-    margin-bottom: 10px;
-    width: 100%
+.body-container .row-green {
+    width: 100%;
+    background: #5A745A;
+}
+
+.body-container .row-green  h4, .body-container .row-green p{
+    font-weight: normal;
+    color: #fff;
+}
+
+.body-container.test .quest {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.body-container.test .mdl-radio {
+    font-size: 14px;
+    margin: 5px 10px 20px 10px;     
+    font-weight: normal;
 }
 
 .body-container.test button {
     margin-top: 10px;
 }
+
+/*.mdl-radio__inner-circle {
+    background: #5A745A;
+}
+
+.mdl-radio.is-checked .mdl-radio__outer-circle {
+    border: 2px solid #5A745A;   
+}*/
 
 /***** Latest work *****/
 
@@ -346,7 +374,6 @@ footer {
 }
 
 .footer-border {
-    margin-top: 20px;
     border-top: 1px dashed #ddd;
 }
 
