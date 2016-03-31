@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
     $('.maps iframe').css("pointer-events", "none"); 
   });
 
-  var $contactForm = $('#contact-form');
+  var $contactForm = $('.contact-form');
   console.log($contactForm);
 
   $contactForm.submit(function(e) {
@@ -21,15 +21,15 @@ jQuery(document).ready(function() {
       data: $(this).serialize(),
       dataType: 'json',
       beforeSend: function() {
-        $contactForm.append('<div class="alert alert--loading">Enviando mensagem</div>');
+        $contactForm.append('<br><div class="alert alert-loading">Enviando mensagem</div>');
       },
       success: function(data) {
-        $contactForm.find('.alert--loading').hide();
-        $contactForm.append('<div class="alert alert--success">Mensagem enviada!</div>');
+        $contactForm.find('.alert-loading').hide();
+        $contactForm.append('<br><div class="alert alert-success">Mensagem enviada!</div>');
       },
       error: function(err) {
-        $contactForm.find('.alert--loading').hide();
-        $contactForm.append('<div class="alert alert--error">Ocorreu um erro ao enviar sua mensagem, tente novamente mais tarde.</div>');
+        $contactForm.find('.alert-loading').hide();
+        $contactForm.append('<br><div class="alert alert-error">Ocorreu um erro ao enviar sua mensagem, tente novamente mais tarde.</div>');
       }
     });
   });

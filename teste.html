@@ -3,139 +3,63 @@ layout: default
 ---
 
 <br>
-<div class="footer-border"></div>
 <div class="body-container test">
   <div id="contato" class="container">
     <div class="row">
       <div class="wow fadeInDown">
-        <h4>Questionário Ortóptico</h4>
-      	<p>
-      		Descubra através dos seus sintomas a necessidade de fazer um Teste Ortóptico no consultório. <br>
-					OBS: As informações deste site e questionário não substituem um exame abrangente.
-				</p>							
-      	<form role="form" class="form-inline" action="#" method="post">
-					<div class="row">
-					  <div class="form-group col-sm-6">
-					    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-						    <input class="mdl-textfield__input" type="text" id="sample3">
-						    <label class="mdl-textfield__label" for="sample3">Nome...</label>
-						  </div>
+        
+      								
+      	<form role="form" class="contact-form form-horizontal" action="http://formspree.io/danilo.teemo@gmail.com" method="post">
+      	<legend>
+      		<h4>Questionário Ortóptico</h4>
+      			
+      	</legend>
+      		<p>
+  				Descubra através dos seus sintomas a necessidade de fazer um Teste Ortóptico no consultório. <br>
+				OBS: As informações deste site e questionário não substituem um exame abrangente.
+			</p>
+			<br>
+					<div class="form-group">
+					  <label class="col-md-1" for="Nome">Nome</label>  
+					  <div class="col-md-4">
+					  <input name="Nome" type="text" placeholder="Ex.: Danilo Oliveira" class="form-control input-md">
 					  </div>
-				  </div>
-					<div class="row">
-					  <div class="form-group col-sm-6">
-					    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-						    <input class="mdl-textfield__input" type="text" id="sample3">
-						    <label class="mdl-textfield__label" for="sample3">Email...</label>
-						  </div>
-					  </div>		
-				  </div>						  
-					<div class="row col-sm-12">
-		        <span class="quest">1- Sente dores de cabeça durante ou apos a leitura?</span>
-		        <br>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-1-resp-1">
-						  <input type="radio" id="pg-1-resp-1" class="mdl-radio__button" name="pg1" value="1">
-						  <span class="mdl-radio__label">Não</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-1-resp-2">
-						  <input type="radio" id="pg-1-resp-2" class="mdl-radio__button" name="pg1" value="2">
-						  <span class="mdl-radio__label">Ás vezes</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-1-resp-3">
-						  <input type="radio" id="pg-1-resp-3" class="mdl-radio__button" name="pg1" value="3">
-						  <span class="mdl-radio__label">Com frequencia</span>
-						</label>
+					</div>
+					<div class="form-group">
+					  <label class="col-md-1" for="Email">Email</label>  
+					  <div class="col-md-4">
+					  <input name="Email" type="text" placeholder="Ex.: Danilo@gmail.com" class="form-control input-md">
+					  </div>
+					</div>					  
+			        <div class="form-group">
+					  <label class="col-md-3 " for="selectbasic">1- Sente dores de cabeça durante ou apos a leitura?</label>
+					  <div class="col-md-2">
+					    <select name="pergunta 1" class="form-control">
+					      <option selected disabled></option>
+					      <option value="Não">Não</option>
+					      <option value="Ás vezes">Ás vezes</option>
+					      <option value="Com frequencia">Com frequencia</option>
+					    </select>
+					  </div>
+					</div>
+				  	<div class="form-group">
+					  <label class="col-md-3" for="selectbasic">2- Sente dores de cabeça durante ou apos a leitura?</label>
+					  <div class="col-md-2">
+					    <select name="pergunta 2" class="form-control">
+					      <option selected disabled></option>
+					      <option value="Não">Não</option>
+					      <option value="Ás vezes">Ás vezes</option>
+					      <option value="Com frequencia">Com frequencia</option>
+					    </select>
+					  </div>
 					</div>
 
-					<div class="row col-sm-12">
-		        <span class="quest">1- Sente dores de cabeça durante ou apos a leitura?</span>
-		        <br>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-2-resp-1">
-						  <input type="radio" id="pg-2-resp-1" class="mdl-radio__button" name="pg2" value="1">
-						  <span class="mdl-radio__label">Não</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-2-resp-2">
-						  <input type="radio" id="pg-2-resp-2" class="mdl-radio__button" name="pg2" value="2">
-						  <span class="mdl-radio__label">Ás vezes</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-2-resp-3">
-						  <input type="radio" id="pg-2-resp-3" class="mdl-radio__button" name="pg2" value="3">
-						  <span class="mdl-radio__label">Com frequencia</span>
-						</label>
+					<div class="form-group">
+					  <div class="col-md-6">
+					   <button type="submit" class="btn btn-lg btn-default col-sm-2">Enviar</button>
+					  </div>
 					</div>
-
-					<div class="row col-sm-12">
-		        <span class="quest">1- Sente dores de cabeça durante ou apos a leitura?</span>
-		        <br>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-3-resp-1">
-						  <input type="radio" id="pg-3-resp-1" class="mdl-radio__button" name="pg3" value="1">
-						  <span class="mdl-radio__label">Não</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-3-resp-2">
-						  <input type="radio" id="pg-3-resp-2" class="mdl-radio__button" name="pg3" value="2">
-						  <span class="mdl-radio__label">Ás vezes</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-3-resp-3">
-						  <input type="radio" id="pg-3-resp-3" class="mdl-radio__button" name="pg3" value="3">
-						  <span class="mdl-radio__label">Com frequencia</span>
-						</label>
-					</div>
-
-					<div class="row col-sm-12">
-		        <span class="quest">1- Sente dores de cabeça durante ou apos a leitura?</span>
-		        <br>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-4-resp-1">
-						  <input type="radio" id="pg-4-resp-1" class="mdl-radio__button" name="pg4" value="1">
-						  <span class="mdl-radio__label">Não</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-4-resp-2">
-						  <input type="radio" id="pg-4-resp-2" class="mdl-radio__button" name="pg4" value="2">
-						  <span class="mdl-radio__label">Ás vezes</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-4-resp-3">
-						  <input type="radio" id="pg-4-resp-3" class="mdl-radio__button" name="pg4" value="3">
-						  <span class="mdl-radio__label">Com frequencia</span>
-						</label>
-					</div>
-
-					<div class="row col-sm-12">
-		        <span class="quest">1- Sente dores de cabeça durante ou apos a leitura?</span>
-		        <br>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-5-resp-1">
-						  <input type="radio" id="pg-5-resp-1" class="mdl-radio__button" name="pg5" value="1">
-						  <span class="mdl-radio__label">Não</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-5-resp-2">
-						  <input type="radio" id="pg-5-resp-2" class="mdl-radio__button" name="pg5" value="2">
-						  <span class="mdl-radio__label">Ás vezes</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-5-resp-3">
-						  <input type="radio" id="pg-5-resp-3" class="mdl-radio__button" name="pg5" value="3">
-						  <span class="mdl-radio__label">Com frequencia</span>
-						</label>
-					</div>
-
-					<div class="row col-sm-12">
-		        <span class="quest">1- Sente dores de cabeça durante ou apos a leitura?</span>
-		        <br>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-6-resp-1">
-						  <input type="radio" id="pg-6-resp-1" class="mdl-radio__button" name="pg6" value="1">
-						  <span class="mdl-radio__label">Não</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-6-resp-2">
-						  <input type="radio" id="pg-6-resp-2" class="mdl-radio__button" name="pg6" value="2">
-						  <span class="mdl-radio__label">Ás vezes</span>
-						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="pg-6-resp-3">
-						  <input type="radio" id="pg-6-resp-3" class="mdl-radio__button" name="pg6" value="3">
-						  <span class="mdl-radio__label">Com frequencia</span>
-						</label>
-					</div>
-          <div class="row">
-          	<div class="col-sm-12">
-            	<button type="submit" class="btn btn-lg btn-default col-sm-2">Enviar</button>
-          	</div>
-        	</div>
+       
         </form>
    		</div>
   	</div>
