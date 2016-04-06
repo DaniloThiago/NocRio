@@ -14,22 +14,21 @@ jQuery(document).ready(function() {
 
   $contactForm.submit(function(e) {
     e.preventDefault();
-    console.log(e);
+
     $.ajax({
-      url: '//formspree.io/danilo.teemo@gmail.com',
-      method: 'POST',
+      url: 'http://formspree.io/danilo.teemo@gmail.com',
+      type: 'POST',
       data: $(this).serialize(),
       dataType: 'json',
       beforeSend: function() {
-        $contactForm.append('<br><div class="alert alert-loading">Enviando mensagem</div>');
+        $contactForm.find('#msgForm').html('<div class="alert alert-info">Enviando mensagem</div>');
+        $contactForm[0].reset();
       },
       success: function(data) {
-        $contactForm.find('.alert-loading').hide();
-        $contactForm.append('<br><div class="alert alert-success">Mensagem enviada!</div>');
+        $contactForm.find('.alert-info').html('<div class="alert alert-success">Mensagem enviada!</div>').removeClass('alert alert-info');
       },
       error: function(err) {
-        $contactForm.find('.alert-loading').hide();
-        $contactForm.append('<br><div class="alert alert-error">Ocorreu um erro ao enviar sua mensagem, tente novamente mais tarde.</div>');
+        $contactForm.find('.alert-info').html('<div class="alert alert-danger">Ocorreu um erro ao enviar sua mensagem, tente novamente mais tarde.</div>').removeClass('alert alert-info');
       }
     });
   });

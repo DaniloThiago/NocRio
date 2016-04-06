@@ -140,41 +140,42 @@ layout: default
       <div class="row">
         <div id="contato" class="col-sm-12 wow fadeInDown">
           <h4>FALE CONOSCO</h4>
-          <div class="footer-box-text footer-box-text-subscribe">
+          <div class="footer-box-text">
             <p>Deixe aqui sua mensagem:</p>
             <form class="contact-form" action="http://formspree.io/danilo.teemo@gmail.com" method="post">
               <div class="row form-group">
                 <div class="col-sm-3">
                   <label class="sr-only" for="subscribe-email">Nome</label>
-                  <input type="text" name="nome" placeholder="Nome..." class="form-control" id="subscribe-nome">
+                  <input type="text" name="Nome" placeholder="Nome..." class="form-control" id="subscribe-nome">
                 </div>
                 <div class="col-sm-3">
                   <label class="sr-only" for="subscribe-email">Telefone</label>
-                  <input type="text" name="nome" placeholder="Telefone..." class="form-control" id="subscribe-telefone">
+                  <input type="text" name="Telefone" placeholder="Telefone..." class="form-control" id="subscribe-telefone">
                 </div>
                 <div class="col-sm-3">
                   <label class="sr-only" for="subscribe-email">E-mail</label>
-                  <input type="email" name="_replyto" placeholder="Email..." class="form-control" id="subscribe-email">
+                  <input type="email" name="Email" placeholder="Email..." class="form-control" id="subscribe-email">
                 </div>
                 <div class="col-sm-3">
                   <label class="sr-only" for="subscribe-email">Assunto</label>
-                  <input type="text" name="nome" placeholder="Assunto..." class="form-control" id="subscribe-assunto">
+                  <input type="text" name="Assunto" placeholder="Assunto..." class="form-control" id="subscribe-assunto">
                 </div>                  
                 <div class="container">
                   <div class="row">
                     <div class="col-sm-12">
                       <label class="sr-only" for="subscribe-email">Mensagem</label>
-                      <textarea name="body" placeholder="Sua mensagem..." cols="22" style="resize: vertical" class="form-control" id="contact-message"></textarea>
+                      <textarea name="Mensagem" placeholder="Sua mensagem..." cols="22" style="resize: vertical" class="form-control" id="contact-message"></textarea>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="container">
                 <div class="row">
-                  <button type="submit" class="btn btn-lg btn-default col-sm-2">Enviar</button>
+                  <button type="submit" value="Send" class="btn btn-lg btn-default col-sm-2">Enviar</button>
                 </div>
                 <br>
               </div>
+              <div id="msgForm"></div>
             </form>
           </div>
         </div>
