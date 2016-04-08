@@ -145,7 +145,7 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
     margin-top: 20px;
 }
 
-.presentation-container h1 {
+.presentation-container h1, .presentation-container span.h1 {
     font-family: 'Lobster', cursive;
     font-size: 35px;
     color: #5A745A;
@@ -153,7 +153,7 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 
-.presentation-container h3 {
+.presentation-container h2, .presentation-container h3, .presentation-container h4 {
     font-family: 'Lobster', cursive;
     color: #5A745A;
     font-weight: bold;
