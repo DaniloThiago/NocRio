@@ -28,7 +28,7 @@ a {
     text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-a:hover, a:focus { color: #006b43; text-decoration: none; }
+a:hover, a:focus { color: #0E582E; text-decoration: none; }
 
 strong { font-weight: bold; }
 
@@ -45,7 +45,7 @@ h3, h4 { line-height: 20px; }
 a.big-link-1 {
 	display: inline-block;
     padding: 5px 22px;
-    background: #006b43;
+    background: #0E582E;
     color: #fff;
     font-style: italic;
     text-decoration: none;
@@ -69,7 +69,7 @@ a.big-link-2 {
     width: 35px;
     height: 35px;
     padding-top: 6px;
-    background: #006b43;
+    background: #0E582E;
     font-size: 20px;
     color: #fff;
     line-height: 20px;
@@ -101,7 +101,7 @@ a.big-link-2:active {
 }
 
 .navbar-toggle {
-    color: #006b43;
+    color: #0E582E;
 }
 
 ul.navbar-nav {
@@ -140,21 +140,14 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
 
 /***** Presentation *****/
 
-.presentation-container {
-    margin-top: 20px;
-}
-
-.presentation-container h1, .presentation-container span.h1 {
-    /*font-family: 'Lobster', cursive;*/
+h1, .presentation-container span.h1 {
     font-family: Calibri;
     margin-bottom: 0;
-    font-size: 35px;
-    color: #006b43;
+    color: #0E582E;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
 }
 
 .presentation-container h2, .presentation-container h3, .presentation-container h4 {
-    /*font-family: 'Lobster', cursive;*/
     color: #727376;
     font-weight: bold;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.2);
@@ -276,12 +269,22 @@ ul.navbar-nav li a:hover i, ul.navbar-nav li a:focus i { color: #fff; }
     margin-top: 10px;
 }
 
+.row h1 strong em {
+    color: #0E582E;
+}
+
+span.drop { 
+    font-size: 200%;
+    font-style: italic;
+    color: #0E582E;
+    margin-bottom: -15px;
+} 
 /*.mdl-radio__inner-circle {
-    background: #006b43;
+    background: #0E582E;
 }
 
 .mdl-radio.is-checked .mdl-radio__outer-circle {
-    border: 2px solid #006b43;   
+    border: 2px solid #0E582E;   
 }*/
 
 /***** Latest work *****/
@@ -292,7 +295,7 @@ tr div.legenda {
     padding-left:14px;
     padding-right:14px;
     margin-top:3px;
-    background-color:#006b43;
+    background-color:#0E582E;
     color:#fff;
     font-size:12px;
 }
@@ -309,7 +312,7 @@ tr div.legenda {
     width: 220px;
     margin: 0 auto;
     background: #fff;
-    font-family: 'Lobster', cursive;
+    /*font-family: 'Lobster', cursive;*/
     font-size: 24px;
     color: #5d5d5d;
     font-weight: bold;
@@ -417,7 +420,7 @@ footer {
     text-align: center;
 }
 .footer-social a { margin: 0 0 0 10px; font-size: 26px; color: #888; }
-.footer-social a:hover, .footer-social a:focus { color: #006b43; }
+.footer-social a:hover, .footer-social a:focus { color: #0E582E; }
 
 /***** Google map *****/
 
