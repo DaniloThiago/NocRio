@@ -1,5 +1,5 @@
 body {cursor: default; text-align: center; font-family: 'Trebuchet MS', 'Open Sans', sans-serif; background: #eee; color: #727376; font-size: 13px; padding-top: 106px;}
-.col-sm-3{ 
+.col-sm-3{
     margin-bottom: 10px;
 }
 
@@ -10,7 +10,7 @@ body {cursor: default; text-align: center; font-family: 'Trebuchet MS', 'Open Sa
         padding-left: 0;
     }
 }
- 
+
 .clear{
 display:block;
 clear:both;
@@ -21,7 +21,7 @@ line-height:0px;}
 
 h3 span{color:#666;}
 footer ul{list-style:none; padding:0; font-size:15px;}
-footer input{margin-bottom:8px;} 
+footer input{margin-bottom:8px;}
 
 a {
     color: #094021;
@@ -261,7 +261,7 @@ h1, .presentation-container span.h1 {
 
 .body-container.test .mdl-radio {
     font-size: 14px;
-    margin: 5px 10px 20px 10px;     
+    margin: 5px 10px 20px 10px;
     font-weight: normal;
 }
 
@@ -273,18 +273,18 @@ h1, .presentation-container span.h1 {
     color: #0E582E;
 }
 
-span.drop { 
+span.drop {
     font-size: 200%;
     font-style: italic;
     color: #0E582E;
     margin-bottom: -15px;
-} 
+}
 /*.mdl-radio__inner-circle {
     background: #0E582E;
 }
 
 .mdl-radio.is-checked .mdl-radio__outer-circle {
-    border: 2px solid #0E582E;   
+    border: 2px solid #0E582E;
 }*/
 
 /***** Latest work *****/
@@ -426,4 +426,8 @@ footer {
 
 .maps iframe{
     pointer-events: none;
+}
+
+.font-size-s {
+  font-size: 14px !important;
 }
