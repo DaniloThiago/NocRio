@@ -9,8 +9,14 @@ jQuery(document).ready(function() {
     $('.maps iframe').css("pointer-events", "none"); 
   });
 
-  var $contactForm = $('.contact-form');
-  console.log($contactForm);
+  $('#verao').hover(function(){
+    $(this).attr({src: 'assets/img/images/verao-02.jpeg'});
+  });
+  $('#verao').mouseout(function(){
+    $(this).attr({src: 'assets/img/images/verao-01.jpeg'});
+  });
+
+  var $contactForm = $('.contact-form');  
 
   $contactForm.submit(function(e) {
     e.preventDefault();
