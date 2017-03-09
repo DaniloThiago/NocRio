@@ -11,6 +11,15 @@ body {cursor: default; text-align: center; font-family: 'Trebuchet MS', 'Open Sa
     }
 }
 
+.btn-noc {
+    background: #0E582E;
+    color: #fff;
+}
+.btn-noc:hover {
+    background: #0e762e;
+    color: #fff;
+}
+
 .clear{
 display:block;
 clear:both;
