@@ -8,13 +8,10 @@ jQuery(document).ready(function() {
   $( ".maps" ).mouseleave(function() {
     $('.maps iframe').css("pointer-events", "none"); 
   });
-
-  $('#verao').hover(function(){
-    $(this).attr({src: 'assets/img/images/verao-02.jpeg'});
-  });
-  $('#verao').mouseout(function(){
-    $(this).attr({src: 'assets/img/images/verao-01.jpeg'});
-  });
+  
+  setTimeout(function(){
+    $('#myModal').modal('show');
+  },10000);
 
   var $contactForm = $('.contact-form');  
 
