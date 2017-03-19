@@ -29,7 +29,7 @@ jQuery(document).ready(function() {
     e.preventDefault();
 
     $.ajax({
-      url: 'http://formspree.io/contato@nocrio.com.br'
+      url: 'http://formspree.io/contato@nocrio.com.br',
       type: 'POST',
       data: $(this).serialize(),
       dataType: 'json',
