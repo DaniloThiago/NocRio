@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+  var cond = true;
   new WOW().init();
 
   $('.maps').click(function () {
@@ -8,10 +9,19 @@ jQuery(document).ready(function() {
   $( ".maps" ).mouseleave(function() {
     $('.maps iframe').css("pointer-events", "none"); 
   });
-  
+
+  $('#outono').click(function(){
+   $('#myModal').modal({show:true});
+  });
+
   setTimeout(function(){
-    $('#myModal').modal('show');
-  },10000);
+    if(cond)
+      $('#myModal').modal({show:true});
+  },7000);
+
+  $('#myModal').on('show.bs.modal', function (e) {
+    cond = false;
+  });
 
   var $contactForm = $('.contact-form');  
 
@@ -19,7 +29,7 @@ jQuery(document).ready(function() {
     e.preventDefault();
 
     $.ajax({
-      url: 'http://formspree.io/danilo.teemo@gmail.com',
+      url: 'http://formspree.io/contato@nocrio.com.br'
       type: 'POST',
       data: $(this).serialize(),
       dataType: 'json',
