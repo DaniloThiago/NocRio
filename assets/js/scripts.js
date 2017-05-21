@@ -10,9 +10,12 @@ jQuery(document).ready(function() {
     $('.maps iframe').css("pointer-events", "none"); 
   });
 
-  $('#outono').click(function(){
-   $('#myModal').modal({show:true});
-  });
+  $('#outono').hover(function(){
+   $('#outono').attr({src: 'assets/img/outono/02.png'})
+   .css({cursor: 'pointer'})
+  },function(){
+   $('#outono').attr({src: 'assets/img/outono/01.png'})
+ });
 
   setTimeout(function(){
     if(cond)
@@ -29,7 +32,7 @@ jQuery(document).ready(function() {
     e.preventDefault();
 
     $.ajax({
-      url: 'http://formspree.io/contato@nocrio.com.br'
+      url: 'http://formspree.io/contato@nocrio.com.br',
       type: 'POST',
       data: $(this).serialize(),
       dataType: 'json',
