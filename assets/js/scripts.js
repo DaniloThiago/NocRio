@@ -10,17 +10,17 @@ jQuery(document).ready(function() {
     $('.maps iframe').css("pointer-events", "none"); 
   });
 
-  $('#outono').hover(function(){
-   $('#outono').attr({src: 'assets/img/outono/02.png'})
-   .css({cursor: 'pointer'})
-  },function(){
-   $('#outono').attr({src: 'assets/img/outono/01.png'})
- });
+ //  $('#outono').hover(function(){
+ //   $('#outono').attr({src: 'assets/img/outono/02.png'})
+ //   .css({cursor: 'pointer'})
+ //  },function(){
+ //   $('#outono').attr({src: 'assets/img/outono/01.png'})
+ // });
 
-  setTimeout(function(){
-    if(cond)
-      $('#myModal').modal({show:true});
-  },7000);
+  // setTimeout(function(){
+  //   if(cond)
+  //     $('#myModal').modal({show:true});
+  // },7000);
 
   $('#myModal').on('show.bs.modal', function (e) {
     cond = false;
