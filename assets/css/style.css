@@ -39,7 +39,8 @@ body {
     color: #fff;
     background: #0e582e;
 }
-.btn-noc:hover {
+.btn-noc:hover,
+.btn-noc:active {
     color: #fff;
     background: #0e762e;
 }
