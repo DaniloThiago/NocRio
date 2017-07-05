@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'corbel';
-  src:  url('../font/corbel.ttf');
+  font-family: 'calibri';
+  src:  url('../font/calibri.ttf');
 }
 body {
     padding-top: 106px;
 
-    font-family: "corbel", "Trebuchet MS", "Open Sans", sans-serif;
+    font-family: "calibri", "Trebuchet MS", "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 16px;
 
