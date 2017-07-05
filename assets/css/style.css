@@ -1,14 +1,18 @@
+@font-face {
+  font-family: 'corbel bold';
+  src:  url('../font/corbelbold.ttf');
+}
 body {
     padding-top: 106px;
 
-    font-family: "Trebuchet MS", "Open Sans", sans-serif;
+    font-family: "corbel bold", "Trebuchet MS", "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 16px;
 
     cursor: default;
     text-align: center;
 
-    color: #727376;
+    color: #666 !important;
     background: #eee;
 }
 .col-sm-3 {
