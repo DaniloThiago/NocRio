@@ -17,10 +17,10 @@ jQuery(document).ready(function() {
  //   $('#outono').attr({src: 'assets/img/outono/01.png'})
  // });
 
-  setTimeout(function(){
-    if(cond)
-      $('#myModal').modal({show:true});
-  }, 5000);
+  // setTimeout(function(){
+  //   if(cond)
+  //     $('#myModal').modal({show:true});
+  // }, 5000);
 
   $('#myModal').on('show.bs.modal', function (e) {
     cond = false;

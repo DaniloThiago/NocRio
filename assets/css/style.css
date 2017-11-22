@@ -6,7 +6,7 @@ body {
     padding-top: 106px;
 
     font-family: "calibri", "Trebuchet MS", "Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 16px;
 
     cursor: default;
@@ -52,7 +52,9 @@ body {
 .btn-noc > a {
     color: #fff;
 }
-
+.divider.doctor {
+    padding-bottom: 53px;
+}
 .clear {
     display: block;
     width: 1px;
